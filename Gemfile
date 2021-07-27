@@ -13,7 +13,12 @@ gem "active_model_serializers", "~> 0.10.12"
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "faker", "~> 2.18"
+  gem 'sqlite3', '~> 1.4'
 end
 
 group :development do
+end
+
+group :production do
+  gem "pg", "~> 1.2"
 end

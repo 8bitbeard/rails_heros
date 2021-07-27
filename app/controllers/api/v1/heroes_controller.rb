@@ -1,6 +1,9 @@
 module Api
   module V1
     class HeroesController < ApplicationController
+      include Authenticable
+
+      before_action :authenticate_with_token, except: %i[index show]
       before_action :set_hero, only: [:show, :update, :destroy]
 
       # GET /heroes
@@ -21,7 +24,7 @@ module Api
         @hero = Hero.new(hero_params)
 
         if @hero.save
-          render json: @hero, status: :created, location: api_hero_url(@hero)
+          render json: @hero, status: :created, location: api_v1_hero_url(@hero)
         else
           render json: @hero.errors, status: :unprocessable_entity
         end

@@ -13,9 +13,15 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "faker", "~> 2.18"
   gem 'sqlite3', '~> 1.4'
+  gem "rspec-rails", "~> 5.0"
 end
 
 group :development do
+end
+
+group :test do
+  gem "shoulda-matchers", "~> 5.0"
+  gem "simplecov", "~> 0.21.2", require: false
 end
 
 group :production do

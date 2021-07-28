@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-07-28T07:10:56-03:00">2021-07-28T07:10:56-03:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-07-28T07:26:13-03:00">2021-07-28T07:26:13-03:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -869,7 +869,7 @@
 
             
 
-            <code class="ruby">        @heroes = Hero.by_token(@token).search(params[:term]).sorted_by_name</code>
+            <code class="ruby">        @heroes = Hero.by_token(@token).search(params[:name]).sorted_by_name</code>
           </li>
         </div>
       
@@ -1807,7 +1807,7 @@
 
             
 
-            <code class="ruby">  scope :search, -&gt; (term) { where(&#39;LOWER(name) LIKE ?&#39;, &quot;%#{term.downcase}%&quot;) if term.present? }</code>
+            <code class="ruby">  scope :search, -&gt; (name) { where(&#39;LOWER(name) LIKE ?&#39;, &quot;%#{name.downcase}%&quot;) if name.present? }</code>
           </li>
         </div>
       

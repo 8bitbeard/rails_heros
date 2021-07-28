@@ -203,7 +203,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -242,8 +242,112 @@
           1,
           null
         ]
+      },
+      "C:/Users/04.000376/source-github/rails_heros/spec/routing/heroes_routing_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          2,
+          2,
+          2,
+          null
+        ]
+      },
+      "C:/Users/04.000376/source-github/rails_heros/app/controllers/api/v1/heroes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "C:/Users/04.000376/source-github/rails_heros/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "C:/Users/04.000376/source-github/rails_heros/app/controllers/concerns/authenticable.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1627466114
+    "timestamp": 1627467056
   }
 }

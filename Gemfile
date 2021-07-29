@@ -15,6 +15,7 @@ group :development, :test do
   gem "faker", "~> 2.18"
   gem 'sqlite3', '~> 1.4'
   gem "rspec-rails", "~> 5.0"
+  gem "factory_bot_rails", "~> 6.2"
 end
 
 group :development do
@@ -30,4 +31,5 @@ end
 group :production do
   gem "pg", "~> 1.2"
 end
+
 

@@ -18,6 +18,8 @@ group :development, :test do
 end
 
 group :development do
+  gem 'spring'
+  gem "spring-commands-rspec", "~> 1.0"
 end
 
 group :test do
@@ -28,3 +30,4 @@ end
 group :production do
   gem "pg", "~> 1.2"
 end
+

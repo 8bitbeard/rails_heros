@@ -1,7 +1,17 @@
-# README
+# Rails Heros API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
+This API was developed in `Ruby on Rails`, following the exceptional `Curso Ruby on Rails 6 API` tutorial made by Paulo Eduardo Melo (https://github.com/peimelo)
+
+## Tests
+
+[![CircleCI](https://circleci.com/gh/8bitbeard/rails_heros.svg?style=svg)](https://circleci.com/gh/8bitbeard/rails_heros)
+
+To run the tests, go to the root of the project, and paste the following command on the terminal:
+
+```bash
+rspec
+```
 
 Things you may want to cover:
 
